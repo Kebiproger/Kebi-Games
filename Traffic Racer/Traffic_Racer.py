@@ -21,10 +21,10 @@ pygame.display.set_caption('Traffic Racer 1.0')  # Надпись на окне
 
 gg = pygame.image.load('imgs/car1.png').convert_alpha()
 cr = pygame.image.load('imgs/car_rect.png').convert_alpha()
-blue_car = pygame.image.load('imgs\enemy1.png').convert_alpha()
-white_car = pygame.image.load('imgs\enemy2.png').convert_alpha()
-gruzak_car = pygame.image.load('imgs\enemy3.png').convert_alpha()
-red_car = pygame.image.load('imgs\enemy4.png').convert_alpha()
+blue_car = pygame.image.load('imgs/enemy1.png').convert_alpha()
+white_car = pygame.image.load('imgs/enemy2.png').convert_alpha()
+gruzak_car = pygame.image.load('imgs/enemy3.png').convert_alpha()
+red_car = pygame.image.load('imgs/enemy4.png').convert_alpha()
 
 enemy_timer = pygame.USEREVENT + 1
 pygame.time.set_timer(enemy_timer, 9000)
